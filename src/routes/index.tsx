@@ -122,9 +122,9 @@ function Invitation() {
           <div className="relative z-10 px-6 text-center">
             <p className="eyebrow rise" style={{ animationDelay: "2.2s" }}>Together with their families</p>
             <h1 className="mt-4 font-display font-light italic leading-[0.9] text-foreground">
-              <span className="rise gold-text shimmer block text-6xl sm:text-8xl lg:text-9xl" style={{ animationDelay: "2.8s" }}>{W.partner1}</span>
+              <span className="rise gold-text gold-lift shimmer block text-6xl sm:text-8xl lg:text-9xl" style={{ animationDelay: "2.8s" }}>{W.partner1}</span>
               <span className="rise block py-1 text-3xl text-accent sm:text-4xl" style={{ animationDelay: "3.4s" }}>&amp;</span>
-              <span className="rise gold-text shimmer block text-6xl sm:text-8xl lg:text-9xl" style={{ animationDelay: "3.8s" }}>{W.partner2}</span>
+              <span className="rise gold-text gold-lift shimmer block text-6xl sm:text-8xl lg:text-9xl" style={{ animationDelay: "3.8s" }}>{W.partner2}</span>
             </h1>
             <p className="rise mt-6 font-label text-xs uppercase tracking-[0.35em] text-ink" style={{ animationDelay: "4.6s" }}>
               request the honour of your presence
@@ -162,7 +162,7 @@ function Invitation() {
             </span>
             <span className={`absolute inset-x-0 bottom-[6%] flex flex-col items-center gap-3 transition-opacity duration-500 ${phase === "opening" ? "opacity-0" : ""}`}>
               <span className="pulse-plate card-paper rounded-sm border border-accent px-5 py-2 eyebrow">Tap to open</span>
-              <span className="gold-text font-display text-3xl italic drop-shadow sm:text-5xl">{W.partner1} &amp; {W.partner2}</span>
+              <span className="gold-text font-display text-3xl italic sm:text-5xl [filter:drop-shadow(0_2px_3px_var(--fg))_drop-shadow(0_0_14px_var(--fg))]">{W.partner1} &amp; {W.partner2}</span>
             </span>
           </button>
         </div>

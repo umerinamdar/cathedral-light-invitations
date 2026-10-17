@@ -126,6 +126,9 @@
   background-clip: text;
   color: transparent;
 }
+@utility gold-lift {
+  filter: drop-shadow(0 1px 0 color-mix(in oklab, var(--scratch-ink) 70%, transparent)) drop-shadow(0 0 18px var(--paper-light));
+}
 @utility eyebrow {
   font-family: var(--font-label);
   text-transform: uppercase;
@@ -165,7 +168,7 @@
   border-radius: 80% 0 80% 0;
   background: radial-gradient(circle at 30% 30%, var(--surface), color-mix(in oklab, var(--tint) 40%, var(--surface)));
   box-shadow: 0 2px 4px color-mix(in oklab, var(--scratch-ink) 15%, transparent);
-  animation: petal-fall linear infinite;
+  animation: petal-fall linear infinite both;
 }
 
 @media (prefers-reduced-motion: reduce) {
