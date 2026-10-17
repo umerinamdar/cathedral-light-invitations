@@ -41,7 +41,7 @@
 
   --veil: color-mix(in oklab, var(--fg) 55%, transparent);
   --glow: color-mix(in oklab, var(--highlight) 70%, transparent);
-  --gold-grad: linear-gradient(115deg, var(--scratch-ink) 0%, var(--accent) 22%, var(--highlight) 45%, var(--accent-soft) 60%, var(--accent) 80%, var(--scratch-ink) 100%);
+  --gold-grad: linear-gradient(115deg, var(--scratch-ink) 0%, var(--accent) 30%, var(--accent-soft) 48%, var(--accent) 66%, var(--scratch-ink) 100%);
   --shadow-card: 0 30px 60px -30px color-mix(in oklab, var(--scratch-ink) 45%, transparent), 0 2px 0 0 var(--paper-light) inset;
   --font-display: "Cormorant Garamond", "Times New Roman", serif;
   --font-label: "Jost", system-ui, sans-serif;

@@ -162,7 +162,7 @@ function Invitation() {
             </span>
             <span className={`absolute inset-x-0 bottom-[6%] flex flex-col items-center gap-3 transition-opacity duration-500 ${phase === "opening" ? "opacity-0" : ""}`}>
               <span className="pulse-plate card-paper rounded-sm border border-accent px-5 py-2 eyebrow">Tap to open</span>
-              <span className="gold-text font-display text-3xl italic sm:text-5xl [filter:drop-shadow(0_2px_3px_var(--fg))_drop-shadow(0_0_14px_var(--fg))]">{W.partner1} &amp; {W.partner2}</span>
+              <span className="font-display text-3xl italic text-highlight sm:text-5xl [text-shadow:0_2px_4px_var(--fg),0_0_18px_var(--fg)]">{W.partner1} &amp; {W.partner2}</span>
             </span>
           </button>
         </div>
